@@ -1,0 +1,15 @@
+@import '../../variables.scss';
+
+.cardNumberWrapper {
+  width: 100%;
+  position: relative;
+
+  .cardIcon {
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: 23px;
+    right: 9px;
+    pointer-events: none;
+  }
+}

@@ -1,0 +1,36 @@
+@import '../../variables.scss';
+
+.selectInput {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 1rem;
+
+  select {
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: 1px solid $primary-color-dark;
+    border-radius: 2px;
+
+    // Override default arrow
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: linear-gradient(
+        45deg,
+        transparent 50%,
+        $primary-color-dark 50%
+      ),
+      linear-gradient(135deg, $primary-color-dark 50%, transparent 50%);
+    background-position: calc(100% - 15px) calc(0.7em + 4px),
+      calc(100% - 10px) calc(0.7em + 4px), calc(100% - 2.5em) 0.5em;
+    background-size: 5px 5px, 5px 5px, 1px 1.5em;
+    background-repeat: no-repeat;
+  }
+
+  &.error {
+    select {
+      border-color: $error-color;
+      outline-color: $error-color;
+    }
+  }
+}

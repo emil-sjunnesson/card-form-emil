@@ -1,0 +1,26 @@
+@import '../../variables.scss';
+
+.textInput {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 1rem;
+
+  input {
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: 1px solid $primary-color-dark;
+    border-radius: 2px;
+  }
+
+  label {
+    margin-bottom: 0.2rem;
+  }
+
+  &.error {
+    input {
+      border-color: $error-color;
+      outline-color: $error-color;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+$primary-color: #425881;
+$primary-color-dark: #2c3649;
+$secondary-color: #c9d5ec;
+$bg-color: #ffffff;
+$error-color: #e00751;
+
+// Tablet size devices
+@mixin tablet {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+// Laptop size devices
+@mixin laptop {
+  @media (min-width: 1040px) {
+    @content;
+  }
+}
+
+// Desktop size devices
+@mixin desktop {
+  @media (min-width: 1440px) {
+    @content;
+  }
+}

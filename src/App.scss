@@ -1,0 +1,10 @@
+@import './variables.scss';
+
+main {
+  height: 100vh;
+  margin: 0 auto;
+
+  @include tablet {
+    max-width: 500px;
+  }
+}

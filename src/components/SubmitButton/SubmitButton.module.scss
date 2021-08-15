@@ -1,0 +1,16 @@
+@import '../../variables.scss';
+
+.submitButton {
+  width: 100%;
+  background-color: $primary-color;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  padding: 0.6rem;
+  margin-top: 1rem;
+
+  &:hover {
+    background-color: $primary-color-dark;
+  }
+}
