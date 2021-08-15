@@ -1,8 +1,10 @@
 # Card form by Emil
 
+Small credit card form with validations, error messages, masked inputs, selects and a card type identifier.
+
 [LIVE DEMO](https://card-form-emil.netlify.app/) hosted on Netlify.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Form logic was handled with [React Hook Form](https://react-hook-form.com/) and e2e test made with [Puppeteer](https://github.com/puppeteer/puppeteer).
 
 ## Code Challenge part 1
 
@@ -10,7 +12,7 @@ The first part of the code challange is also found in this repo.
 
 [1.1 strings](/algorithms/string-task.js)
 
-[1.2 numbers](/algorithms/numbers-task.js)
+[1.2 numbers](/algorithms/number-task.js)
 
 ## Available Scripts
 
